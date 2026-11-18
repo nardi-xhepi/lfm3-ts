@@ -1,0 +1,56 @@
+LFM3-TS
+Copyright 2026 Nardi Xhepi
+
+LFM3-TS is distributed under the LFM Open License v1.0. A copy of the licence is in the file LICENSE.
+
+This is an independent project. It is not affiliated with, sponsored by or endorsed by Liquid AI, Inc. The names
+"Liquid AI", "LFM" and "LFM3" belong to Liquid AI, Inc. and are used here only to describe the origin of the work.
+
+
+1. LFM3-1.7B (Liquid AI, Inc.)
+
+The LFM3-TS model weights are a Derivative Work of LFM3-1.7B by Liquid AI, Inc.
+(https://huggingface.co/LiquidAI/LFM3-1.7B), which is licensed under the LFM Open License v1.0.
+
+NOTICE OF CHANGES. The weights of LFM3-1.7B were modified by Nardi Xhepi:
+
+  - the weights of the language model were fine-tuned on time-series question answering, except the token
+    embedding matrix (shared with the output layer), which is unchanged;
+  - a time-series encoder (`model.ts_tower`) and a projector (`model.multi_modal_projector`) were added; these
+    weights are new and are not part of LFM3-1.7B;
+  - the tokenizer gained the name `<|ts|>` for a previously unused token id (125033), and the chat template gained
+    a `timeseries` content part.
+
+The distribution of LFM3-1.7B this work started from contains no NOTICE file.
+
+
+2. Hugging Face Transformers
+
+The files
+
+  src/lfm3_ts/configuration_lfm3_ts.py
+  src/lfm3_ts/modeling_lfm3_ts.py
+  src/lfm3_ts/processing_lfm3_ts.py
+
+(shipped with the model checkpoint as configuration_lfm3_ts.py, modeling_lfm3_ts.py and processing_lfm3_ts.py) are
+adapted from `transformers.models.lfm3_vl` of Hugging Face Transformers
+(https://github.com/huggingface/transformers), Copyright 2026 The HuggingFace Team, licensed under the Apache
+License, Version 2.0. They were changed by Nardi Xhepi: the vision tower and the image inputs are replaced by a
+time-series encoder and time-series inputs. A copy of the Apache License, Version 2.0 is in
+LICENSES/Apache-2.0.txt.
+
+
+3. Method and data
+
+The method follows ChatTS (Xie et al., "ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced
+Understanding and Reasoning", arXiv:2412.03104). No ChatTS code or weights are included.
+
+Training used the ChatTS synthetic training data (https://huggingface.co/datasets/ChatTSRepo/ChatTS-Training-Dataset),
+windows of real series from TSB-AD-U (https://github.com/TheDatumOrg/TSB-AD) and prompts from databricks-dolly-15k
+(https://huggingface.co/datasets/databricks/databricks-dolly-15k). None of these datasets is redistributed here.
+
+The real series were gathered by TSB-AD from their original sources. Those used in training, with their licences as
+stated by each source: the MIT-BIH Supraventricular Arrhythmia, Long-Term ECG and Arrhythmia databases of PhysioNet
+(Open Data Commons Attribution License v1.0); OPPORTUNITY and Daphnet of the UCI Machine Learning Repository and
+CATS (CC BY 4.0); the Server Machine Dataset of OmniAnomaly (MIT); Exathlon (CC BY-NC-SA 4.0); WSD, SED and Power
+(no licence stated).

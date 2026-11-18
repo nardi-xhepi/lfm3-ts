@@ -1,0 +1,32 @@
+{
+ "generated series, value": {
+  "questions": 150,
+  "answered": 1.0,
+  "value 0.25 sd right": 0.6533333333333333,
+  "value 0.1 sd right": 0.26666666666666666,
+  "value error (sd)": 0.16055614244221267
+ },
+ "generated series, extremes": {
+  "questions": 150,
+  "low value right": 0.7466666666666667,
+  "low point right": 0.5666666666666667,
+  "high value right": 0.8066666666666666,
+  "high point right": 0.5466666666666666,
+  "answered": 1.0
+ },
+ "real series, value": {
+  "questions": 150,
+  "answered": 1.0,
+  "value 0.25 sd right": 0.5733333333333334,
+  "value 0.1 sd right": 0.34,
+  "value error (sd)": 0.17968617884603605
+ },
+ "real series, extremes": {
+  "questions": 150,
+  "low value right": 0.64,
+  "low point right": 0.3933333333333333,
+  "high value right": 0.56,
+  "high point right": 0.38666666666666666,
+  "answered": 1.0
+ }
+}

@@ -1,0 +1,35 @@
+[project]
+name = "lfm3-ts"
+version = "0.1.0"
+description = "LFM3-TS: a time-series chat model built on Liquid AI's LFM3-1.7B with Hugging Face transformers"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Nardi Xhepi" }]
+license = "LicenseRef-LFM-Open-License-1.0 AND Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "LICENSES/Apache-2.0.txt"]
+keywords = ["time series", "anomaly detection", "multimodal", "LFM3", "transformers"]
+dependencies = [
+    "numpy",
+    "torch>=2.4",
+    "transformers>=5.23",
+]
+
+[project.optional-dependencies]
+train = ["accelerate", "datasets", "peft"]
+baselines = ["anthropic", "matplotlib", "pillow"]
+dev = ["pytest", "matplotlib", "pillow"]
+
+[project.urls]
+Repository = "https://github.com/nardi-xhepi/lfm3-ts"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lfm3_ts"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["slow: downloads the real LFM3-1.7B tokenizer"]

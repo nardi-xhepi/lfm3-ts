@@ -1,0 +1,93 @@
+{
+ "answers of LFM3-TS on the test windows": {
+  "answers": 154,
+  "claims": {
+   "true": 367,
+   "false": 144,
+   "unverifiable": 13
+  },
+  "share true": 0.718,
+  "answers by verdict": {
+   "partly": 85,
+   "accurate": 67,
+   "inaccurate": 2
+  },
+  "by kind of claim": {
+   "change": {
+    "true": 77,
+    "false": 18,
+    "unverifiable": 1
+   },
+   "comparison": {
+    "true": 16,
+    "false": 15,
+    "unverifiable": 3
+   },
+   "count": {
+    "false": 6,
+    "true": 3,
+    "unverifiable": 1
+   },
+   "duration": {
+    "false": 17,
+    "true": 30
+   },
+   "level": {
+    "true": 118,
+    "false": 35
+   },
+   "other": {
+    "unverifiable": 8,
+    "false": 3,
+    "true": 3
+   },
+   "value at a point": {
+    "true": 120,
+    "false": 50
+   }
+  }
+ },
+ "sample of training answers": {
+  "answers": 96,
+  "claims": {
+   "true": 294,
+   "unverifiable": 17,
+   "false": 19
+  },
+  "share true": 0.939,
+  "answers by verdict": {
+   "accurate": 79,
+   "partly": 15,
+   "inaccurate": 2
+  },
+  "by kind of claim": {
+   "change": {
+    "true": 45
+   },
+   "comparison": {
+    "true": 24,
+    "false": 9
+   },
+   "count": {
+    "true": 1
+   },
+   "duration": {
+    "true": 14,
+    "false": 1,
+    "unverifiable": 1
+   },
+   "level": {
+    "true": 111,
+    "false": 8
+   },
+   "other": {
+    "true": 14,
+    "unverifiable": 16
+   },
+   "value at a point": {
+    "true": 85,
+    "false": 1
+   }
+  }
+ }
+}

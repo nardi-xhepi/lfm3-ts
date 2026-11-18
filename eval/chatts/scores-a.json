@@ -1,0 +1,134 @@
+{
+ "a-lfm3-ts": {
+  "records": 159,
+  "answered": 159,
+  "failed": 0,
+  "categorical": {
+   "overall": 0.8196,
+   "questions": 299,
+   "by kind": {
+    "noise": 0.8571,
+    "local": 0.8667,
+    "season": 1.0,
+    "local-inductive": 0.9429,
+    "shape-cluster-inductive": 0.4994,
+    "shape-correlation-inductive": 0.6667,
+    "trend": 0.8537,
+    "local-cluster-inductive": 0.4284,
+    "local-correlation-inductive": 0.8519
+   }
+  },
+  "numerical": {
+   "overall": 0.7747,
+   "questions": 273,
+   "by kind": {
+    "noise": 0.5833,
+    "local": 0.7498,
+    "season": 0.9102,
+    "local-inductive": 0.8288,
+    "trend": 0.8559
+   }
+  },
+  "reason": {
+   "overall": 0.6131,
+   "questions": 137,
+   "by kind": {
+    "local-inductive": "needs a judge model (35 questions)",
+    "shape-cluster-inductive": "needs a judge model (15 questions)",
+    "shape-correlation-inductive": "needs a judge model (15 questions)",
+    "local-cluster-inductive": "needs a judge model (27 questions)",
+    "local-correlation-inductive": "needs a judge model (27 questions)",
+    "deductive": 0.6047,
+    "causal": 0.6304
+   }
+  }
+ },
+ "a-chatts-8b": {
+  "records": 159,
+  "answered": 159,
+  "failed": 0,
+  "categorical": {
+   "overall": 0.838,
+   "questions": 299,
+   "by kind": {
+    "noise": 0.881,
+    "local": 0.9167,
+    "season": 0.973,
+    "local-inductive": 0.9429,
+    "shape-cluster-inductive": 0.8248,
+    "shape-correlation-inductive": 0.7333,
+    "trend": 0.7561,
+    "local-cluster-inductive": 0.4884,
+    "local-correlation-inductive": 0.8148
+   }
+  },
+  "numerical": {
+   "overall": 0.8232,
+   "questions": 273,
+   "by kind": {
+    "noise": 0.5394,
+    "local": 0.8165,
+    "season": 0.7161,
+    "local-inductive": 0.8672,
+    "trend": 0.9344
+   }
+  },
+  "reason": {
+   "overall": 0.7372,
+   "questions": 137,
+   "by kind": {
+    "local-inductive": "needs a judge model (35 questions)",
+    "shape-cluster-inductive": "needs a judge model (15 questions)",
+    "shape-correlation-inductive": "needs a judge model (15 questions)",
+    "local-cluster-inductive": "needs a judge model (27 questions)",
+    "local-correlation-inductive": "needs a judge model (27 questions)",
+    "deductive": 0.6512,
+    "causal": 0.7935
+   }
+  }
+ },
+ "a-lfm3-1.7b-text": {
+  "records": 159,
+  "answered": 159,
+  "failed": 23,
+  "categorical": {
+   "overall": 0.1044,
+   "questions": 297,
+   "by kind": {
+    "noise": 0.2619,
+    "local": 0.0333,
+    "season": 0.0541,
+    "local-inductive": 0.0,
+    "shape-cluster-inductive": 0.4003,
+    "shape-correlation-inductive": 0.2667,
+    "trend": 0.1463,
+    "local-cluster-inductive": 0.0,
+    "local-correlation-inductive": 0.0
+   }
+  },
+  "numerical": {
+   "overall": 0.0396,
+   "questions": 279,
+   "by kind": {
+    "noise": 0.1508,
+    "local": 0.0208,
+    "season": 0.0,
+    "local-inductive": 0.0,
+    "trend": 0.0834
+   }
+  },
+  "reason": {
+   "overall": 0.152,
+   "questions": 125,
+   "by kind": {
+    "local-inductive": 0.0,
+    "shape-cluster-inductive": "needs a judge model (15 questions)",
+    "shape-correlation-inductive": "needs a judge model (15 questions)",
+    "local-cluster-inductive": "needs a judge model (26 questions)",
+    "local-correlation-inductive": "needs a judge model (26 questions)",
+    "deductive": 0.2683,
+    "causal": 0.2424
+   }
+  }
+ }
+}

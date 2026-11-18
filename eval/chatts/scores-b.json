@@ -1,0 +1,128 @@
+{
+ "b-lfm3-ts": {
+  "records": 400,
+  "answered": 400,
+  "failed": 0,
+  "categorical": {
+   "overall": 0.7952,
+   "questions": 1069,
+   "by kind": {
+    "shape-cluster-inductive": 0.7261,
+    "shape-correlation-inductive": 0.7391,
+    "local-correlation-inductive": 0.7153,
+    "local-cluster-inductive": 0.722,
+    "noise": 0.878,
+    "local": 0.7895,
+    "local-inductive": 0.7805,
+    "season": 1.0,
+    "trend": 0.9643
+   }
+  },
+  "numerical": {
+   "overall": 0.7678,
+   "questions": 708,
+   "by kind": {
+    "noise": 0.4463,
+    "local": 0.7248,
+    "local-inductive": 0.7125,
+    "season": 0.9002,
+    "trend": 0.9648
+   }
+  },
+  "reason": {
+   "overall": 0.0,
+   "questions": 27,
+   "by kind": {
+    "shape-cluster-inductive": "needs a judge model (138 questions)",
+    "shape-correlation-inductive": "needs a judge model (138 questions)",
+    "local-correlation-inductive": "needs a judge model (137 questions)",
+    "local-cluster-inductive": "needs a judge model (137 questions)",
+    "local-inductive": "needs a judge model (123 questions)"
+   }
+  }
+ },
+ "b-chatts-8b": {
+  "records": 400,
+  "answered": 400,
+  "failed": 0,
+  "categorical": {
+   "overall": 0.8463,
+   "questions": 1069,
+   "by kind": {
+    "shape-cluster-inductive": 0.8763,
+    "shape-correlation-inductive": 0.8478,
+    "local-correlation-inductive": 0.6642,
+    "local-cluster-inductive": 0.7206,
+    "noise": 0.9024,
+    "local": 0.8797,
+    "local-inductive": 0.8699,
+    "season": 1.0,
+    "trend": 0.9762
+   }
+  },
+  "numerical": {
+   "overall": 0.8292,
+   "questions": 708,
+   "by kind": {
+    "noise": 0.5736,
+    "local": 0.8071,
+    "local-inductive": 0.7975,
+    "season": 0.8801,
+    "trend": 0.9604
+   }
+  },
+  "reason": {
+   "overall": 0.0,
+   "questions": 16,
+   "by kind": {
+    "shape-cluster-inductive": "needs a judge model (138 questions)",
+    "shape-correlation-inductive": "needs a judge model (138 questions)",
+    "local-correlation-inductive": "needs a judge model (137 questions)",
+    "local-cluster-inductive": "needs a judge model (137 questions)",
+    "local-inductive": "needs a judge model (123 questions)"
+   }
+  }
+ },
+ "b-lfm3-1.7b-text": {
+  "records": 400,
+  "answered": 400,
+  "failed": 5,
+  "categorical": {
+   "overall": 0.1423,
+   "questions": 1059,
+   "by kind": {
+    "shape-cluster-inductive": 0.2078,
+    "shape-correlation-inductive": 0.3261,
+    "local-correlation-inductive": 0.1667,
+    "local-cluster-inductive": 0.0,
+    "noise": 0.2073,
+    "local": 0.015,
+    "local-inductive": 0.0407,
+    "season": 0.1753,
+    "trend": 0.1667
+   }
+  },
+  "numerical": {
+   "overall": 0.0296,
+   "questions": 724,
+   "by kind": {
+    "noise": 0.055,
+    "local": 0.0061,
+    "local-inductive": 0.0192,
+    "season": 0.1368,
+    "trend": 0.0376
+   }
+  },
+  "reason": {
+   "overall": 0.0,
+   "questions": 164,
+   "by kind": {
+    "shape-cluster-inductive": "needs a judge model (138 questions)",
+    "shape-correlation-inductive": "needs a judge model (138 questions)",
+    "local-correlation-inductive": "needs a judge model (132 questions)",
+    "local-cluster-inductive": "needs a judge model (132 questions)",
+    "local-inductive": "needs a judge model (123 questions)"
+   }
+  }
+ }
+}

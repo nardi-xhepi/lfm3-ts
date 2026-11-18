@@ -1,0 +1,350 @@
+{"id": 0, "prediction": "Yes, around point N where N is the index of the zero(s)."}
+{"id": 1, "prediction": ""}
+{"id": 2, "prediction": ""}
+{"id": 3, "prediction": "Yes, around point 10."}
+{"id": 4, "prediction": "Yes, around point 89."}
+{"id": 5, "prediction": "No."}
+{"id": 6, "prediction": "No."}
+{"id": 7, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nBut they also gave a huge list of numbers after \"Points are numbered from 0.\" That list appears to be the actual series values? Or maybe it's something else."}
+{"id": 8, "prediction": ""}
+{"id": 9, "prediction": "Yes, around point 0."}
+{"id": 10, "prediction": "No."}
+{"id": 11, "prediction": "Yes, around point 100."}
+{"id": 12, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\nThen they listed a massive sequence of numbers (starting from something like \"[5739, 5505, 5721, ...]\" etc."}
+{"id": 13, "prediction": "No."}
+{"id": 14, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\nThen before that they had massive comma-separated numbers."}
+{"id": 15, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\" And earlier they asked about points being numbered from 0."}
+{"id": 16, "prediction": "Yes, around point 0."}
+{"id": 17, "prediction": "followed by the answer in exactly this form: ...\"\n\nThus we must examine the sequence."}
+{"id": 18, "prediction": "No.\"\n\nThus final.</think>To assess whether any observation stands out as anomalous, we can compare each data point\u2019s deviation from the overall mean (1839.02) using its standard deviation (573.245)."}
+{"id": 19, "prediction": "** Yes, around point 90."}
+{"id": 20, "prediction": ""}
+{"id": 21, "prediction": "Yes, around point 24."}
+{"id": 22, "prediction": "**  \nYes, around point 20."}
+{"id": 23, "prediction": ""}
+{"id": 24, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\"\n\nWe must decide whether any point is anomalous relative to the distribution."}
+{"id": 25, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nThen after that, there's a huge block of numbers separated by commas."}
+{"id": 26, "prediction": ""}
+{"id": 27, "prediction": ""}
+{"id": 28, "prediction": ""}
+{"id": 29, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n[then a very long comma-separated list]\n```\n\nThus the list follows immediately after those statements."}
+{"id": 30, "prediction": "Yes, around point 10."}
+{"id": 31, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\" And they gave the raw data."}
+{"id": 32, "prediction": ""}
+{"id": 33, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nThus we just need to compute whether any point is an outlier."}
+{"id": 34, "prediction": "Yes, around point 20."}
+{"id": 35, "prediction": "Yes, around point 0."}
+{"id": 36, "prediction": "Yes, around point 0."}
+{"id": 37, "prediction": ""}
+{"id": 38, "prediction": "Yes, around point 0."}
+{"id": 39, "prediction": "Yes, around point 30."}
+{"id": 40, "prediction": "No."}
+{"id": 41, "prediction": "Yes, around point 10."}
+{"id": 42, "prediction": ""}
+{"id": 43, "prediction": "Yes, around point N\" where N corresponds to the index of the outlier."}
+{"id": 44, "prediction": "Yes, around point 19."}
+{"id": 45, "prediction": ""}
+{"id": 46, "prediction": ""}
+{"id": 47, "prediction": ""}
+{"id": 48, "prediction": "**Yes, around point 36**."}
+{"id": 49, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\"\n\nWe have to decide based on typical anomaly detection methods."}
+{"id": 50, "prediction": "No"}
+{"id": 51, "prediction": "Yes, around point 30.</think>Yes, around point 30."}
+{"id": 52, "prediction": "Yes, around point 61."}
+{"id": 53, "prediction": "No\n\nLet's"}
+{"id": 54, "prediction": "** No."}
+{"id": 55, "prediction": "Yes, around point 11."}
+{"id": 56, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\"\n\nGiven my reasoning now, I think the correct response is \"No\", as no point shows a significant anomaly relative to the mean and standard deviation."}
+{"id": 57, "prediction": ""}
+{"id": 58, "prediction": "...\"\n\nBut since I don't have exact computation here, but based on typical examples, maybe point 20 is where value is -0.2418, but that seems low."}
+{"id": 59, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nThus we must decide."}
+{"id": 60, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\"\n\nSo we need to decide if any point is an outlier relative to the distribution."}
+{"id": 61, "prediction": ""}
+{"id": 62, "prediction": "Yes, around point 10."}
+{"id": 63, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\n[then a big blob]\n\nIs there an anomaly in this time series? Answer Yes or No first; if Yes, say around which point it is"}
+{"id": 64, "prediction": "Yes, around point 1000.** \n\n(Or replace 1000 with another plausible number like 500 or 2000\u2014but without data, arbitrary.) \n\nWait, looking at the data string, it's a single line with many numbers separated by commas."}
+{"id": 65, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\" And before that: \"Is there an anomaly in this time series? Answer Yes or No first; if Yes, say around which point it is."}
+{"id": 66, "prediction": ""}
+{"id": 67, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nThen immediately after, there is a huge block of numbers."}
+{"id": 68, "prediction": "Yes, around point 0."}
+{"id": 69, "prediction": "No."}
+{"id": 70, "prediction": "Yes, around point 19."}
+{"id": 71, "prediction": "No."}
+{"id": 72, "prediction": ""}
+{"id": 73, "prediction": "Yes, around point 10."}
+{"id": 74, "prediction": "Yes, around point 38."}
+{"id": 75, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No\".\"\n\nThen immediately follows a massive block of numbers."}
+{"id": 76, "prediction": "followed by the answer"}
+{"id": 77, "prediction": ""}
+{"id": 78, "prediction": "Is there an anomaly in this time series?  \nYes, around point 21."}
+{"id": 79, "prediction": "Yes, around point 46.27."}
+{"id": 80, "prediction": "Yes, around point 20."}
+{"id": 81, "prediction": "...'\"."}
+{"id": 82, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\"\n\nWe need to identify anomalies."}
+{"id": 83, "prediction": "Yes, around point 10."}
+{"id": 84, "prediction": "Yes, around point 10."}
+{"id": 85, "prediction": "Yes, around point 0."}
+{"id": 86, "prediction": "No."}
+{"id": 87, "prediction": ""}
+{"id": 88, "prediction": ""}
+{"id": 89, "prediction": "Yes, around point 10."}
+{"id": 90, "prediction": "Yes, around point 50.</think>Yes, around point 50."}
+{"id": 91, "prediction": "Yes, around point 1."}
+{"id": 92, "prediction": ""}
+{"id": 93, "prediction": ""}
+{"id": 94, "prediction": ""}
+{"id": 95, "prediction": "** Yes, around point 20."}
+{"id": 96, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\"\n\nAnd earlier, they said: \"Is there an anomaly in this time series? Answer Yes or No first; if Yes, say around which point it is."}
+{"id": 97, "prediction": "Yes, around point 12."}
+{"id": 98, "prediction": ""}
+{"id": 99, "prediction": ""}
+{"id": 100, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nBut where is the actual data? Possibly the data is the long list of numbers that appeared"}
+{"id": 101, "prediction": ""}
+{"id": 102, "prediction": "Yes, around point 19."}
+{"id": 103, "prediction": "No."}
+{"id": 104, "prediction": ""}
+{"id": 105, "prediction": "Yes, around point 0."}
+{"id": 106, "prediction": "No."}
+{"id": 107, "prediction": ""}
+{"id": 108, "prediction": ""}
+{"id": 109, "prediction": "Yes, around point 79."}
+{"id": 110, "prediction": ""}
+{"id": 111, "prediction": "No."}
+{"id": 112, "prediction": ""}
+{"id": 113, "prediction": "Yes, around point 15."}
+{"id": 114, "prediction": "**  \nYes, around point **0.535365**."}
+{"id": 115, "prediction": "Yes, around point 37."}
+{"id": 116, "prediction": "**  \nNo."}
+{"id": 117, "prediction": "Yes, around point 0."}
+{"id": 118, "prediction": "Yes, around point 0."}
+{"id": 119, "prediction": "Yes, around point 0."}
+{"id": 120, "prediction": "** Yes, around point 0."}
+{"id": 121, "prediction": ""}
+{"id": 122, "prediction": "followed by the answer in exactly this form: 'Yes, around point N.' or 'No.'\" Then presumably the assistant would compute something else."}
+{"id": 123, "prediction": "Yes, around point 0."}
+{"id": 124, "prediction": "Yes, around point 50."}
+{"id": 125, "prediction": ""}
+{"id": 126, "prediction": ""}
+{"id": 127, "prediction": "Yes, around point 10."}
+{"id": 128, "prediction": "Yes, around point 144."}
+{"id": 129, "prediction": "Yes, around point 58."}
+{"id": 130, "prediction": ""}
+{"id": 131, "prediction": "Yes, around point 79."}
+{"id": 132, "prediction": ""}
+{"id": 133, "prediction": "Yes, around point 10."}
+{"id": 134, "prediction": "No."}
+{"id": 135, "prediction": ""}
+{"id": 136, "prediction": "Yes, around point 0."}
+{"id": 137, "prediction": "**Yes, around point 25.6**.</think>Yes, around point 25.6"}
+{"id": 138, "prediction": ""}
+{"id": 139, "prediction": "Yes, around point 0."}
+{"id": 140, "prediction": "Yes, around point 25."}
+{"id": 141, "prediction": "Yes, around point 10."}
+{"id": 142, "prediction": ""}
+{"id": 143, "prediction": "Yes, around point 0."}
+{"id": 144, "prediction": ""}
+{"id": 145, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\n[then a huge block]\n\n..."}
+{"id": 146, "prediction": ""}
+{"id": 147, "prediction": ""}
+{"id": 148, "prediction": "Yes, around point 0."}
+{"id": 149, "prediction": "Yes, around point 0."}
+{"id": 150, "prediction": "Yes, around point 10."}
+{"id": 151, "prediction": "**Yes, around point 0.**"}
+{"id": 152, "prediction": "No."}
+{"id": 153, "prediction": "Yes, around point 0."}
+{"id": 154, "prediction": "Yes, around point 30."}
+{"id": 155, "prediction": "Yes, around point 36."}
+{"id": 156, "prediction": ""}
+{"id": 157, "prediction": "No.</think>No."}
+{"id": 158, "prediction": "** No.</think>No."}
+{"id": 159, "prediction": "Yes, around point 0."}
+{"id": 160, "prediction": "Yes, around point 1806."}
+{"id": 161, "prediction": ""}
+{"id": 162, "prediction": "** No."}
+{"id": 163, "prediction": "Yes, around point 18."}
+{"id": 164, "prediction": "**Yes, around point 19** (the value at index 19 is `-0.5873`, which deviates significantly from the surrounding values)."}
+{"id": 165, "prediction": "No."}
+{"id": 166, "prediction": "**Yes, around point 19.**"}
+{"id": 167, "prediction": ""}
+{"id": 168, "prediction": "Yes, around point 0."}
+{"id": 169, "prediction": "No.</think>No."}
+{"id": 170, "prediction": ""}
+{"id": 171, "prediction": ""}
+{"id": 172, "prediction": "Yes, around point 3."}
+{"id": 173, "prediction": ""}
+{"id": 174, "prediction": "Yes, around point 0."}
+{"id": 175, "prediction": ""}
+{"id": 176, "prediction": "Yes, around point 13."}
+{"id": 177, "prediction": "Yes, around point 52."}
+{"id": 178, "prediction": "Yes, around point 23."}
+{"id": 179, "prediction": "Yes, around point 20."}
+{"id": 180, "prediction": "Yes, around point 0."}
+{"id": 181, "prediction": "Yes, around point 30."}
+{"id": 182, "prediction": "Yes, around point 0."}
+{"id": 183, "prediction": "**Yes, around point 18** (the value at index 18 is `-0.6983`, which is significantly lower than the surrounding values)."}
+{"id": 184, "prediction": "**Yes, around point 0**."}
+{"id": 185, "prediction": "Yes, around point 0."}
+{"id": 186, "prediction": "Yes, around point 10."}
+{"id": 187, "prediction": "Yes, around point 10."}
+{"id": 188, "prediction": ""}
+{"id": 189, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nSo indeed they mention mean and std dev already! That suggests they've computed them."}
+{"id": 190, "prediction": "Yes, around point 46.67."}
+{"id": 191, "prediction": "Yes, around point 10."}
+{"id": 192, "prediction": "Yes, around point 16."}
+{"id": 193, "prediction": "**  \nYes, around point 30."}
+{"id": 194, "prediction": "Yes, around point 17."}
+{"id": 195, "prediction": ""}
+{"id": 196, "prediction": "Yes, around point 20."}
+{"id": 197, "prediction": "Yes, around point 0.</think>Yes, around point 0."}
+{"id": 198, "prediction": "Yes, around point N."}
+{"id": 199, "prediction": "Yes, around point 0."}
+{"id": 200, "prediction": ""}
+{"id": 201, "prediction": "No"}
+{"id": 202, "prediction": "Yes, around point 30."}
+{"id": 203, "prediction": "Yes, around point 30."}
+{"id": 204, "prediction": "Yes, around point 12."}
+{"id": 205, "prediction": "Yes, around point 50."}
+{"id": 206, "prediction": "Yes, around point 14."}
+{"id": 207, "prediction": "Yes, around point 10 and 20."}
+{"id": 208, "prediction": "**  \nYes, around point 20."}
+{"id": 209, "prediction": "Yes, around point 30."}
+{"id": 210, "prediction": ""}
+{"id": 211, "prediction": ""}
+{"id": 212, "prediction": ""}
+{"id": 213, "prediction": ""}
+{"id": 214, "prediction": "**Yes, around point 18** (value = `0.9913`)."}
+{"id": 215, "prediction": "Yes, around point 16."}
+{"id": 216, "prediction": ""}
+{"id": 217, "prediction": "Yes, around point 47."}
+{"id": 218, "prediction": ""}
+{"id": 219, "prediction": ""}
+{"id": 220, "prediction": "** No."}
+{"id": 221, "prediction": "Yes, around point 16."}
+{"id": 222, "prediction": "No."}
+{"id": 223, "prediction": ""}
+{"id": 224, "prediction": "Yes, around point 0."}
+{"id": 225, "prediction": "Yes, around point 10."}
+{"id": 226, "prediction": "Yes, around point 30."}
+{"id": 227, "prediction": "Yes, around point 1470."}
+{"id": 228, "prediction": "No."}
+{"id": 229, "prediction": "Yes, around point 0."}
+{"id": 230, "prediction": "followed by the answer...\"\n\nGiven the context and the typical approach in such problems, the anomaly is detected at point 10."}
+{"id": 231, "prediction": "Yes, around point 39."}
+{"id": 232, "prediction": "Yes, around point 14."}
+{"id": 233, "prediction": ""}
+{"id": 234, "prediction": ""}
+{"id": 235, "prediction": "Yes, around point 0."}
+{"id": 236, "prediction": "Yes, around point 0."}
+{"id": 237, "prediction": "Yes, around point 0."}
+{"id": 238, "prediction": ""}
+{"id": 239, "prediction": "No."}
+{"id": 240, "prediction": "Yes, around point 2047."}
+{"id": 241, "prediction": ""}
+{"id": 242, "prediction": "Yes, around point 10."}
+{"id": 243, "prediction": "Yes, around point 0."}
+{"id": 244, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\n..."}
+{"id": 245, "prediction": "Yes, around point 0 (the very beginning)."}
+{"id": 246, "prediction": "Yes, around point 0."}
+{"id": 247, "prediction": "Yes, around point 0."}
+{"id": 248, "prediction": "Yes, around point 187."}
+{"id": 249, "prediction": "Yes, around point 0."}
+{"id": 250, "prediction": ""}
+{"id": 251, "prediction": "Yes, around point 0."}
+{"id": 252, "prediction": "Yes, around point 19."}
+{"id": 253, "prediction": "Yes, around point 0."}
+{"id": 254, "prediction": "Yes, around point 15."}
+{"id": 255, "prediction": ""}
+{"id": 256, "prediction": "Yes, around point 100."}
+{"id": 257, "prediction": ""}
+{"id": 258, "prediction": ""}
+{"id": 259, "prediction": "No."}
+{"id": 260, "prediction": "**  \nNo, there is no anomaly in this time series based on the provided data and summary statistics."}
+{"id": 261, "prediction": ""}
+{"id": 262, "prediction": "Yes, around point 32."}
+{"id": 263, "prediction": "No."}
+{"id": 264, "prediction": "No."}
+{"id": 265, "prediction": "No."}
+{"id": 266, "prediction": "Yes, around point 0.**\n\n(Note: This assumes the anomaly is detected at the beginning of the series, which is a plausible default when no other evidence is given.)"}
+{"id": 267, "prediction": "Yes, around point 0."}
+{"id": 268, "prediction": "Yes, around point 20."}
+{"id": 269, "prediction": ""}
+{"id": 270, "prediction": ""}
+{"id": 271, "prediction": "No\"."}
+{"id": 272, "prediction": ""}
+{"id": 273, "prediction": "Yes, around point 12."}
+{"id": 274, "prediction": "No."}
+{"id": 275, "prediction": "Yes, around point 2979."}
+{"id": 276, "prediction": "Yes, around point 23."}
+{"id": 277, "prediction": "** Yes, around point 0."}
+{"id": 278, "prediction": "**Yes, around point 30.**"}
+{"id": 279, "prediction": "** Yes, around point 13."}
+{"id": 280, "prediction": "No"}
+{"id": 281, "prediction": ""}
+{"id": 282, "prediction": "No."}
+{"id": 283, "prediction": "Yes, around point 0."}
+{"id": 284, "prediction": "Yes, around point 10."}
+{"id": 285, "prediction": ""}
+{"id": 286, "prediction": "Yes, around point 12."}
+{"id": 287, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\n[then a long comma-separated list]\n\nIs there an anomaly in this time series? Answer Yes or No first; if Yes, say around which point it is."}
+{"id": 288, "prediction": "Yes, around point 0."}
+{"id": 289, "prediction": "No\n\nLet's craft full response: Provide reasoning briefly then final line."}
+{"id": 290, "prediction": "**  \nYes, around point 30."}
+{"id": 291, "prediction": "Yes, around point 3."}
+{"id": 292, "prediction": "Yes, around point 90."}
+{"id": 293, "prediction": "** No"}
+{"id": 294, "prediction": "Yes, around point 0."}
+{"id": 295, "prediction": "Yes, around point 12."}
+{"id": 296, "prediction": "Yes, around point N where value is 49."}
+{"id": 297, "prediction": "Look at early part: The numbers seem random."}
+{"id": 298, "prediction": "Yes, around point 62."}
+{"id": 299, "prediction": "Yes, around point 20."}
+{"id": 300, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\"\n\nThen before that, there was a massive list:\n\"1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1.586, 1"}
+{"id": 301, "prediction": "Yes, around point 0."}
+{"id": 302, "prediction": "** No."}
+{"id": 303, "prediction": "Yes, around point 0."}
+{"id": 304, "prediction": "** Yes, around point 10."}
+{"id": 305, "prediction": "** Yes, around point 0."}
+{"id": 306, "prediction": "- If forced to pick a specific point: **No significant anomaly detected overall**."}
+{"id": 307, "prediction": "Yes, around point N.\" or \"No.\"\n\nWe could reason using the standard approach: Compute the absolute z-scores for all points."}
+{"id": 308, "prediction": ""}
+{"id": 309, "prediction": "** Yes, around point 0.6803."}
+{"id": 310, "prediction": ""}
+{"id": 311, "prediction": ""}
+{"id": 312, "prediction": "No."}
+{"id": 313, "prediction": ""}
+{"id": 314, "prediction": "Yes, around point 30."}
+{"id": 315, "prediction": ""}
+{"id": 316, "prediction": "Yes, around point 30."}
+{"id": 317, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\nWe need to determine if there's an anomaly in the given time series."}
+{"id": 318, "prediction": "No."}
+{"id": 319, "prediction": "No."}
+{"id": 320, "prediction": "Yes, around point 99."}
+{"id": 321, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n```\n\nThen immediately after, there's a massive dump of numbers, seemingly like a list of values."}
+{"id": 322, "prediction": "Yes, around point 10."}
+{"id": 323, "prediction": ""}
+{"id": 324, "prediction": "No."}
+{"id": 325, "prediction": ""}
+{"id": 326, "prediction": "Yes, around point 50."}
+{"id": 327, "prediction": ""}
+{"id": 328, "prediction": ""}
+{"id": 329, "prediction": "Yes, around point 0."}
+{"id": 330, "prediction": ""}
+{"id": 331, "prediction": ""}
+{"id": 332, "prediction": "Yes, around point 0."}
+{"id": 333, "prediction": "** Yes, around point 0."}
+{"id": 334, "prediction": ""}
+{"id": 335, "prediction": "Yes, around point 19 (value -0.1829)."}
+{"id": 336, "prediction": "Yes, around point 10."}
+{"id": 337, "prediction": "Yes, around point 19."}
+{"id": 338, "prediction": "followed by the answer in exactly this form: \"Yes, around point N.\" or \"No.\"\n\n..."}
+{"id": 339, "prediction": "Yes, around point 10."}
+{"id": 340, "prediction": ""}
+{"id": 341, "prediction": ""}
+{"id": 342, "prediction": ""}
+{"id": 343, "prediction": "Yes, around point 349.8."}
+{"id": 344, "prediction": "Yes, around point 0."}
+{"id": 345, "prediction": "Yes, around point 0 (the first data point)."}
+{"id": 346, "prediction": ""}
+{"id": 347, "prediction": "Yes, around point 8."}
+{"id": 348, "prediction": ""}
+{"id": 349, "prediction": ""}

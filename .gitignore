@@ -1,0 +1,31 @@
+# environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+.DS_Store
+
+# training runs, checkpoints and weights
+runs/
+*.safetensors
+*.bin
+*.pt
+wandb/
+
+# third-party data: never commit series from TSB-AD-U or any other dataset (see README, "Data")
+data/
+TSB-AD-U/
+*_windows.jsonl
+test_questions.jsonl
+questions.jsonl
+*.jsonl.gz
+real_train.jsonl
+chat_replay.jsonl
+
+# secrets
+.env
+*.token

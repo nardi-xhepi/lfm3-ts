@@ -1,0 +1,39 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  fast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # the fast tests run on a tiny random model and must not reach the Hub
+      HF_HUB_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install (CPU build of torch)
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -e ".[dev,train]"
+      - name: The package imports without the training dependencies
+        run: |
+          python - <<'PY'
+          import sys
+          for name in ("datasets", "accelerate", "peft"):
+              sys.modules[name] = None
+          import lfm3_ts
+          assert "lfm3_ts.training" not in sys.modules
+          PY
+      - name: Fast tests
+        run: pytest -m "not slow" -q
