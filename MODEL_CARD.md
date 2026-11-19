@@ -28,7 +28,7 @@ A small language model you can chat with about time series. You give it one or s
 it answers in text.
 
 LFM3-TS is [LFM3-1.7B](https://huggingface.co/LiquidAI/LFM3-1.7B) from Liquid AI with a time-series encoder in front,
-built on the ideas and the synthetic data of [ChatTS](https://arxiv.org/abs/2412.03104). It has 1.8 billion
+built on the ideas and the synthetic data of [ChatTS](https://github.com/NetManAIOps/ChatTS) (Xie et al., VLDB 2025). It has 1.8 billion
 parameters.
 
 - **Code and training recipe:** https://github.com/nardi-xhepi/<github-repo>
