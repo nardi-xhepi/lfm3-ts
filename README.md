@@ -1,7 +1,7 @@
 # LFM3-TS
 
-A small language model that reads time series. You give it a series and a question, and it answers in text: is
-there an anomaly, where, and what does it look like.
+A small language model you can chat with about time series. You give it one or several series and a question, and
+it answers in text.
 
 LFM3-TS is [LFM3-1.7B](https://huggingface.co/LiquidAI/LFM3-1.7B) from Liquid AI with a time-series encoder in front,
 built on the ideas and the synthetic data of [ChatTS](https://arxiv.org/abs/2412.03104). It has 1.8 billion
@@ -9,6 +9,16 @@ parameters. The full story is in the
 [blog post](https://nardi-xhepi.github.io/blog/posts/lfm3-ts.html).
 
 This is an independent project, not affiliated with Liquid AI.
+
+What you can ask about:
+
+- **Trend**: the direction, the starting value, and how much it changes.
+- **Seasonality**: whether there is a period, how long it is, and its amplitude.
+- **Noise**: whether the series is noisy, and how much.
+- **Local changes**: spikes, drops, level shifts and the like, with their position and amplitude.
+- **Values**: the value at a point, or the lowest and highest value of a stretch.
+- **Several series**: which ones have the same shape, or change at the same time.
+- **Anomalies**: whether something is unusual for this series, where, and what it looks like.
 
 ## Quickstart
 
@@ -32,7 +42,8 @@ series[300] += 4  # a spike
 print(model.chat(processor, series, "Is there an anomaly in this time series? If so, where is it and what does it look like?"))
 ```
 
-`series` is a 1D array or list (NaN marks a missing value). Points are numbered from 0.
+`series` is a 1D array or list, or a list of them for several series (NaN marks a missing value). Points are
+numbered from 0.
 
 To skip `trust_remote_code`, or to train, install the package and `import lfm3_ts` first:
 
@@ -43,8 +54,9 @@ pip install "lfm3-ts[train] @ git+https://github.com/nardi-xhepi/lfm3-ts"   # tr
 
 ## Results
 
-**The ChatTS benchmark** ([sets A and B](https://zenodo.org/records/14349206)), scored with the scoring code of the
-ChatTS repository:
+**General understanding: the ChatTS benchmark** ([sets A and B](https://zenodo.org/records/14349206)). It asks
+about trend, seasonality, noise, local changes, and the relations between several series. Scored with the scoring
+code of the ChatTS repository:
 
 | | Parameters | Set A, categorical | Set A, numerical | Set B, categorical | Set B, numerical |
 |---|---|---|---|---|---|
@@ -52,7 +64,7 @@ ChatTS repository:
 | ChatTS-8B | 8B | 83.8% | 82.3% | 84.6% | 82.9% |
 | LFM3-1.7B, numbers as text | 1.7B | 10.4% | 4.0% | 14.2% | 3.0% |
 
-**Anomalies in real series**: 234 windows of 512 points from seven sources of
+**One task in detail: anomalies in real series.** 234 windows of 512 points from seven sources of
 [TSB-AD-U](https://github.com/TheDatumOrg/TSB-AD) that neither model was trained on (105 with a labelled anomaly, 129
 without). An answer is correct when it says "yes" and names a point within 16 points of the labelled stretch.
 
